@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Início - E-commerce de Cursos</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>ProgramaIF</h1>
+      <nav>
+        <ul>
+          <li><button onclick="window.location.href='meus-cursos.html'">Ver Meus Cursos</button></li>
+          <li> <a href="./index.html"><button onclick>Sair</button> </a> </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <h2>Aprenda Programação com os Melhores Cursos</h2>
+        <p>Explore nossa seleção de cursos e avance na sua carreira de TI.</p>
+      </section>
+
+      <section class="cursos">
+        <h2>Nossos Cursos</h2>
+        <div class="lista-cursos">
+          <div class="curso">
+
+              <img src="../images/cursohtml.png" alt="Curso de HTML" />
+              <button class="comprar" onclick="adicionarAoCursos(1, 'Curso de HTML', 99.90)"> Comprar Curso </button>
+            <h3>Curso de HTML</h3>
+            <p>Aprenda a estruturar páginas web do zero.</p>
+          </div>
+          <div class="curso">
+              <img id="logocss" src="../images/cursocss.png" alt="Curso de CSS" />
+              <button class="comprar" onclick="adicionarAoCursos(2, 'Curso de CSS', 99.90)"> Comprar Curso </button>
+            <h3>Curso de CSS</h3>
+            <p>Estilize suas páginas com CSS moderno.</p>
+          </div>
+          <div class="curso">
+              <img id="logojs" src="../images/cursojs.png" alt="Curso de JavaScript" />
+              <button class="comprar" onclick="adicionarAoCursos(3, 'Curso de Js', 99.90)"> Comprar Curso </button>
+            <h3>Curso de JavaScript</h3>
+            <p>Aprenda a programar para web com JavaScript.</p>
+          </div>
+          <div class="curso">
+              <img src="../images/cursoreact.png" alt="Curso de React" />
+              <button class="comprar" onclick="adicionarAoCursos(4, 'Curso de React', 54.99)"> Comprar Curso </button>
+            <h3>Curso de React</h3>
+            <p>Crie interfaces dinâmicas com React.</p>
+          </div>
+          <div class="curso">
+              <img src="../images/cursonode.png" alt="Curso de Node.js"/>
+              <button class="comprar" onclick="adicionarAoCursos(5, 'Curso de Node Js', 99.90)"> Comprar Curso </button>
+            <h3>Curso de Node.js</h3>
+            <p>Desenvolvimento backend com Node.js.</p>
+          </div>
+          <div class="curso">
+              <img src="../images/cursopython.png" alt="Curso de Python"/>
+              <button class="comprar" onclick="adicionarAoCursos(6, 'Curso de Python', 99.90)"> Comprar Curso </button>
+            <h3>Curso de Python</h3>
+            <p>Aprenda uma das linguagens mais versáteis do mercado.</p>
+          </div>
+          <div class="curso">
+              <img src="../images/cursojava.png" alt="Curso de Java" />
+              <button class="comprar" onclick="adicionarAoCursos(7, 'Curso de Java', 99.90)"> Comprar Curso </button>
+            <h3>Curso de Java</h3>
+            <p>Programação orientada a objetos com Java.</p>
+          </div>
+          <div class="curso">
+              <img src="../images/cursophp.png" alt="Curso de PHP" />
+              <button class="comprar" onclick="adicionarAoCursos(8, 'Curso de PHP', 54.99)"> Comprar Curso </button>
+            <h3>Curso de PHP</h3>
+            <p>Desenvolvimento web dinâmico com PHP.</p>
+          </div>
+          <div class="curso">
+              <img src="../images/cursosql.png" alt="Curso de SQL" />
+              <button class="comprar" onclick="adicionarAoCursos(9, 'Curso de SQL', 54.99)"> Comprar Curso </button>
+            <h3>Curso de SQL</h3>
+            <p>Gerencie bancos de dados com SQL.</p>
+          </div>
+          <div class="curso">
+              <img src="../images/cursogit.png" alt="Curso de Git e GitHub" />
+              <button class="comprar" onclick="adicionarAoCursos(1, 'Curso de Git e Github', 99.90)"> Comprar Curso </button>
+            <h3>Curso de Git e GitHub</h3>
+            <p>Controle de versão e colaboração com Git e GitHub.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="../js/meus-cursos.js"></script>
+  </body>
+</html>
